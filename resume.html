@@ -28,6 +28,9 @@ body{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,sans-serif;b
 .sb-contacts{padding:14px 14px 6px;}
 .ci{display:flex;align-items:center;gap:10px;padding:7px 8px;border-radius:8px;margin-bottom:2px;transition:.15s;}
 .ci:hover{background:rgba(255,255,255,.03);}
+.ci-link{text-decoration:none;color:inherit;cursor:pointer;}
+.ci-link:hover{background:rgba(245,158,11,.06);border-radius:8px;}
+.ci-link:hover .ci-val{color:var(--a);}
 .ci-icon{width:30px;height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;}
 .ci-icon.orange{background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.18);}
 .ci-icon.yellow{background:rgba(250,204,21,.12);border:1px solid rgba(250,204,21,.18);}
@@ -235,18 +238,18 @@ body{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,sans-serif;b
   <div class="sb-div"></div>
 
   <div class="sb-contacts">
-    <div class="ci">
+    <a href="mailto:ziyadullayevbilol15@gmail.com" class="ci ci-link">
       <div class="ci-icon orange">✉️</div>
       <div><div class="ci-lbl" id="ci0lbl">EMAIL</div><div class="ci-val">ziyadullayevbilol15@gmail.com</div></div>
-    </div>
-    <div class="ci">
+    </a>
+    <a href="tel:+998910758080" class="ci ci-link">
       <div class="ci-icon yellow">📞</div>
       <div><div class="ci-lbl" id="ci1lbl">PHONE</div><div class="ci-val">+998 91 075 80 80</div></div>
-    </div>
-    <div class="ci">
+    </a>
+    <a href="https://t.me/bilol_ziyodullayev" target="_blank" class="ci ci-link">
       <div class="ci-icon teal">💬</div>
       <div><div class="ci-lbl">TELEGRAM</div><div class="ci-val">@bilol_ziyodullayev</div></div>
-    </div>
+    </a>
     <div class="ci">
       <div class="ci-icon blue">🎂</div>
       <div><div class="ci-lbl" id="ci2lbl">BIRTHDAY</div><div class="ci-val" id="ciBday">April 7, 2007</div></div>
